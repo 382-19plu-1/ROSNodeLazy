@@ -1,0 +1,14 @@
+<launch>
+    <node
+        pkg="vesc_handler"
+        type="test_pub.py"
+        name="test_pub"
+        output="screen"
+    />
+    <node
+        pkg="vesc_handler"
+        type="test_sub.py"
+        name="test_sub"
+        output="screen"
+    />
+</launch> 
